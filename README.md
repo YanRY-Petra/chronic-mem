@@ -4,7 +4,6 @@ As chronic disease management moves toward decentralized home care, medical agen
 
 **Chronic-Mem** is a clinical significance-aware memory metabolism framework that shifts memory management from physical time to semantic criticality. It combines semantic triage ($F_1$), event aggregation ($F_2$), and a tri-state metabolic pipeline ($F_3$) to retain clinically essential evidence while compressing low-value context.
 
-> This repository releases the **core $F_1\!\to\!F_2\!\to\!F_3$ engine** only. Benchmarks and agent wrappers are not included.
 
 ## News
 
@@ -23,8 +22,6 @@ Dialogue ──► F1 Semantic Triage      Atoms + UMLS TUI + non-homogeneous λ
 | **$F_1$** | Atomize dialogue; map UMLS types; assign decay $\lambda_i$ | `chronic_mem/f1/` |
 | **$F_2$** | Cluster atoms into events via significance gravity | `chronic_mem/f2/` |
 | **$F_3$** | Episode resonance, CSPC compression, adaptive retrieval | `chronic_mem/f3/` |
-
-Hyperparameters and rule tables: [`docs/IMPLEMENTATION.md`](docs/IMPLEMENTATION.md).
 
 ## Quick Start
 
