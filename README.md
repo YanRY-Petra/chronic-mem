@@ -6,12 +6,9 @@ As chronic disease management moves toward decentralized home care, medical agen
 
 > This repository releases the **core $F_1\!\to\!F_2\!\to\!F_3$ engine** only. Benchmarks and agent wrappers are not included.
 
-## Authors
+## News
 
-**Ruiyu Yan**\*, **Renke Dai**\*, and **Yilin Kang**†  
-School of Computer Science (School of Artificial Intelligence), South-Central Minzu University  
-`202321241057@mail.scuec.edu.cn`, `2024110293@mail.scuec.edu.cn`, `ylkang@mail.scuec.edu.cn`  
-\*Equal contribution. †Corresponding author.
+- **2026-11** — Chronic-Mem has been accepted to **EACL 2027**! 🎉
 
 ## Pipeline
 
