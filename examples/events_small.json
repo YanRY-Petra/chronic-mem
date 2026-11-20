@@ -1,0 +1,56 @@
+[
+  {
+    "record_index": 0,
+    "events": [
+      {
+        "summary": "Patient has severe asthma symptoms and needs urgent treatment.",
+        "diagnosis": "asthma",
+        "symptoms": ["severe wheezing", "shortness of breath"],
+        "treatment": ["nebulizer therapy"],
+        "medications": ["albuterol inhaler"],
+        "follow_up": ["2020-02-01"],
+        "meta": {
+          "record_index": 0,
+          "dialogue_index": 0,
+          "date": "Date: 2026-01-01 10:00",
+          "location": "Location: Test Hospital-ER",
+          "raw_dialogue": ["Patient reports severe wheezing and shortness of breath."]
+        }
+      },
+      {
+        "summary": "Patient reports mild cough in routine visit.",
+        "diagnosis": "common cold",
+        "symptoms": ["mild cough"],
+        "treatment": ["rest"],
+        "medications": [],
+        "meta": {
+          "record_index": 0,
+          "dialogue_index": 1,
+          "date": "Date: 2026-01-10 09:00",
+          "location": "Location: Test Clinic",
+          "raw_dialogue": ["Patient has a mild cough and feels fine otherwise."]
+        }
+      }
+    ]
+  },
+  {
+    "record_index": 1,
+    "events": [
+      {
+        "summary": "Patient has pollen allergy and mild rhinitis.",
+        "diagnosis": "pollen allergy",
+        "symptoms": ["mild sneezing"],
+        "treatment": [],
+        "medications": ["loratadine"],
+        "meta": {
+          "record_index": 1,
+          "dialogue_index": 0,
+          "date": "Date: 2026-03-03 11:00",
+          "location": "Location: Test Clinic",
+          "raw_dialogue": ["Patient reports seasonal allergy with mild sneezing."]
+        }
+      }
+    ]
+  }
+]
+

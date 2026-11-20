@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.env
+.venv/
+
+# Local BERT weights (download bert-base-uncased into ./bert/ if you want offline encoding)
+bert/
+
+*.pth
+*.pt
+*.log
